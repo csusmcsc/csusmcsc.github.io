@@ -6,9 +6,24 @@
         <title>CSUSM Cybersecurity Club</title>
         <link rel="stylesheet" href="styles.css">
         <script defer src="scripts.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script> <!-- added in by Lenny-->
     </head>
     <body>
-        <header>
+        <nav class="flex items-center justify-between flex-wrap bg-gray-900 p-6">
+            <div class="flex items-center flex-shrink-0 text-white">
+              <a href="fill-current" class="mr-2">
+                <img class="h-8 w-8" src="./assets/img/bestlogoever.PNG"/>
+              </a>
+              <span class="font-semibold text-xl tracking-tight">CSUSM Cybersecurity</span>
+            </div>
+            <div class="block lg:hidden">
+              <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+              </button>
+            </div>
+          </nav>
+
+        <!--<header class="bg-gray-900">
             <a href="">
                 <img id="header-logo" src="./assets/img/bestlogoever.PNG"/>
             </a>
@@ -16,7 +31,8 @@
             <div id="hamburger-menu-button" class="button">
                 <p>🍔</p>
             </div>
-        </header>
+        </header> --->
+
         <div id="main-content-container" class="container">
             <section id="section-events">
                 <p>This is the events page section.</p>
