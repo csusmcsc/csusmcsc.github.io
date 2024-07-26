@@ -9,8 +9,10 @@
 }
 
 body {
+    font-family: monaco, Consolas, Lucida Console, monospace !important;
     background-color: var(--university-blue);
     width: 100%;
+    
 }
 
 section {
@@ -20,6 +22,7 @@ section {
 
 h3 {
     color: var(--gray-30);
+
 }
 
 p {
