@@ -7,31 +7,15 @@
     --gray-20: #d1d3d4;
     --light-black: #555753;
 }
+
 body {
     background-color: var(--university-blue);
-}
-header {
-    border: 5px dashed blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background-color: var(--light-black);
-}
-
-footer {
-    border: 5px dashed grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--light-black);
+    width: 100%;
 }
 
 section {
-    border: 5px dashed greenyellow;
     min-height: 100vh;
+    padding: 0.75rem;
 }
 
 h3 {
@@ -40,24 +24,4 @@ h3 {
 
 p {
     color: var(--gray-20);
-}
-
-#header-logo {
-    height: 64px;
-    width: 64px;
-}
-
-#hamburger-menu-button{ 
-    border: 5px, dashed, violet;
-    height: 64px;
-    width: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: var(--gray-20);
-}
-
-.container {
-    border: 5px dashed red;
 }
