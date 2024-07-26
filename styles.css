@@ -1,0 +1,27 @@
+:root {
+    --university-blue: #002E5A;
+    --cougar-blue: #0062a5;
+    --spirit-blue: #3ab5e8;
+    --rich-black: #222222;
+    --gray-30: #bcbec0;
+    --gray-20: #d1d3d4;
+    --light-black: #555753;
+}
+
+body {
+    background-color: var(--university-blue);
+    width: 100%;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0.75rem;
+}
+
+h3 {
+    color: var(--gray-30);
+}
+
+p {
+    color: var(--gray-20);
+}

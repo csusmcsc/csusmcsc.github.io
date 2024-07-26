@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSUSM Cybersecurity Club</title>
         <link rel="stylesheet" href="styles.css">
         <script defer src="scripts.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <p>Future home of the CSUSM Cybersecurity Club.</p>
+
+        <header class="flex justify-between bg-gray-900 p-6">
+            <div class="flex items-center text-white">
+                <a href="/index.html" class="mr-2 flex flex-shrink-0">
+                    <img class="h-8 w-8" src="./assets/img/bestlogoever.PNG"/>
+                </a>
+                <span class="font-semibold text-xl tracking-tight flex-wrap">CSUSM Cybersecurity Club</span>
+            </div>
+            <div class="block lg:hidden">
+                <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div id="main-content-container" class="container">
+            <section id="section-events" class="container">
+                <h1 class="text-gray-200">Events</h1>
+                <div class="p-3 bg-gray-600">
+                    <p>Upcoming events: TBA</p>
+                </div>
+            </section>
+            <section id="section-about">
+                <h1 class="text-gray-200">About</h1>
+                <div class="p-3 bg-gray-600">
+                    <p>-Who</p>
+                    <p>-What</p>
+                    <p>-When</p>
+                    <p>-Where</p>
+                    <p>-Why</p>
+                    <p>-How</p>
+                    <p>-etc</p>
+                </div>
+            </section>
+            <section id="section-resources">
+                <h1 class="text-gray-200">Resources</h1>
+                <div class="p-3 bg-gray-600">
+                    <p>This is the resources page section.</p>
+                    <p>-Links/videos/guides/tools/guidance/faq/etc.</p>
+                    <p>-Videos</p>
+                    <p>-Guides</p>
+                    <p>-Tools</p>
+                    <p>-Guidance/Suggestions</p>
+                    <p>-FAQ</p>
+                    <p>-Blogs</p>
+                    <p>-etc</p>
+                </div>
+            </section>
+            <section id="section-contact">
+                <h1 class="text-gray-200">Contact</h1>
+                <div class="p-3 bg-gray-600">
+                    <p>This is the contact page section.</p>
+                    <p>-Clickable link to Discord channel</p>
+                    <p>-Email</p>
+                    <p>-Perhaps people to contact or discord handles.</p>
+                    <p>-etc</p>
+                </div>
+            </section>
+        </div>
+
+        <footer class="flex justify-center p-6 bg-gray-900 text-white">
+            <span>CSUSM Cybersecurity Club 2024</span>
+        </footer>
+
     </body>
 </html>
