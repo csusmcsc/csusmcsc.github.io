@@ -10,14 +10,11 @@
 
 body {
     font-family: monaco, Consolas, Lucida Console, monospace !important;
-    background-color: var(--university-blue);
-    width: 100%;
-    
+    background-color: var(--university-blue);    
 }
 
 section {
     min-height: 100vh;
-    padding: 0.75rem;
 }
 
 h3 {
