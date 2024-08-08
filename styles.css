@@ -13,9 +13,6 @@ body {
     background-color: var(--university-blue);    
 }
 
-section {
-    min-height: 100vh;
-}
 
 h3 {
     color: var(--gray-30);
