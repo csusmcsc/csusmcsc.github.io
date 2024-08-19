@@ -22,3 +22,16 @@ h3 {
 p {
     color: var(--gray-20);
 }
+
+.hide {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.rotate-45 {
+    transform: rotate(45deg) translateY(6px) translateX(8px);
+}
+
+.rotate--45 {
+    transform: rotate(-45deg) translateY(-6px) translateX(8px);
+}
