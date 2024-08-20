@@ -8,14 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
         bot: document.getElementById('hamburger-line-bot')
     };
 
-
-    document.getElementById('menu-toggle').addEventListener('change', function() {
+    menuToggle.addEventListener('change', function() {
+        //Brings menu out
         if (this.checked) {
             menu.classList.add('scale-y-100');
             hamburgerLines.top.classList.add('rotate-45');
             hamburgerLines.mid.classList.add('hide');
             hamburgerLines.bot.classList.add('rotate--45');
-        } else {
+        } 
+        //Sends menu back in
+        else {
             menu.classList.remove('scale-y-100');
             hamburgerLines.top.classList.remove('rotate-45');
             hamburgerLines.mid.classList.remove('hide');
@@ -23,10 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }   
     });
 
-    //Closes menu when clicking outside the menu
+    // Closes menu when clicking outside the menu
     document.addEventListener('click', function(event) {
         if (!menuContainer.contains(event.target) && menuToggle.checked) {
             menuToggle.checked = false;
+
+            //This line is a fix to manually force creating an event.
+            menuToggle.dispatchEvent(new Event('change'));
         }
     });
 });

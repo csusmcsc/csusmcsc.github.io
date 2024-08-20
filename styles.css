@@ -23,6 +23,10 @@ p {
     color: var(--gray-20);
 }
 
+.transition-transform {
+    transition: transform 300ms ease-in-out;
+}
+
 .hide {
     opacity: 0 !important;
     transition: opacity 300ms ease-in-out !important;
