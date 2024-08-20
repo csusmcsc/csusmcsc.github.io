@@ -9,9 +9,10 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body class="max-w-full bg-cover bg-center bg-no-repeat" style="background-image: url(/assets/img/csusm-virtualbg11.jpg);">
-
-        <header class="fixed top-0 left-0 w-full bg-gray-900 p-6 z-50">
+    <body class="max-w-full min-h-screen relative">
+        <div class="absolute inset-0 bg-center bg-no-repeat bg-cover bg-fixed opacity-80 z-[-1] min-h-screen" style="background-image: url(/assets/img/csusm-virtualbg11.jpg);">
+        </div>
+        <header class="fixed top-0 left-0 w-full bg-gray-900 p-10 z-50">
             <div class="flex justify-between items-center">
                 <div class="flex items-center text-white">
                     <a href="/index.html" class="mr-2 flex flex-shrink-0">
@@ -44,10 +45,10 @@
           </header>
         
         <div id="main-content-container" class="pt-24">
-            <section id="section-hero" class="p-6">
+            <section id="section-hero" class="p-10">
                 <h1 class="text-gray-200 text-3xl text-wrap mt-3">Welcome to the CSUSM Cybersecurity Club!</h1>
             </section>
-            <section id="section-events" class="p-6">
+            <section id="section-events" class="p-10">
                 <h1 class="text-gray-200 mt-6 mb-3 text-2xl">Upcoming events:</h1>
                 <div class="p-3 bg-gray-600 text-wrap border-solid border-black border-2 rounded-md shadow-lg">
                     <ul class="text-gray-200 text-xl list-disc pl-6">
@@ -56,7 +57,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="section-about" class="p-6">
+            <section id="section-about" class="p-10">
                 <h1 class="text-gray-200 text-2xl mb-3">About</h1>
                 <div class="p-3 bg-gray-600 text-wrap border-solid border-black border-2 text-xl rounded-md shadow-lg">
                     <p>The CSUSM Cybersecurity Club is a student organization officially recognized by California State University San Marcos. We are a group of students at Cal State San Marcos that are passionate about learning more about cybersecurity. We seek to enhance our knowledge, skills, and to create a legacy of comradery that current and future CSUSM students can benefit from. We welcome any and all majors into our club and encourage students at surrounding local community colleges to join our Discord channel.</p>
@@ -64,7 +65,7 @@
                     <p class="mt-6">Meeting times typically take place from noon to 1pm Tuesdays and Thursdays in Academic Hall, room 202. Fall 2024 meeting times are TBD.</p>
                 </div>
             </section>
-            <section id="section-resources" class="p-6">
+            <section id="section-resources" class="p-10">
                 <h1 class="text-gray-200 text-2xl mb-3">Resources[coming soon]</h1>
                 <ul class="p-3 bg-gray-600 text-wrap text-gray-200 text-xl list-disc pl-9 rounded-md border-solid border-black border-2 shadow-lg">
                     <li>Frequently Asked Questions</li>
@@ -74,7 +75,7 @@
                     <li>Blog</li>
                 </ul>
             </section>
-            <section id="section-contact" class="p-6">
+            <section id="section-contact" class="p-10">
                 <h1 class="text-gray-200 text-2xl mb-3">Contact</h1>
                 <div class="p-3 bg-gray-600 text-gray-200 text-xl text-wrap rounded-md border-solid border-black border-2 shadow-lg">
                     <ul>
@@ -90,7 +91,7 @@
             </section>
         </div>
 
-        <footer class="flex justify-center p-6 bg-gray-900 text-white">
+        <footer class="flex justify-center p-10 bg-gray-900 text-white">
             <span>CSUSM Cybersecurity Club 2024</span>
         </footer>
 
