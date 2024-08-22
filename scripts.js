@@ -34,4 +34,5 @@ document.addEventListener('DOMContentLoaded', () => {
             menuToggle.dispatchEvent(new Event('change'));
         }
     });
+    
 });

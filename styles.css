@@ -22,19 +22,15 @@ p {
     color: var(--gray-20);
 }
 
-.transition-transform {
-    transition: transform 300ms ease-in-out;
-}
-
 .hide {
     opacity: 0 !important;
     transition: opacity 300ms ease-in-out !important;
 }
 
 .rotate-45 {
-    transform: rotate(45deg) translateY(6px) translateX(8px) !important;
+    transform: rotate(45deg) translateY(7px) translateX(7px) !important;
 }
 
 .rotate--45 {
-    transform: rotate(-45deg) translateY(-6px) translateX(8px) !important;
+    transform: rotate(-45deg) translateY(-7px) translateX(7px) !important;
 }
