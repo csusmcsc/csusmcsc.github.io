@@ -12,10 +12,8 @@ body {
     font-family: monaco, Consolas, Lucida Console, monospace !important;
 }
 
-
 h3 {
     color: var(--gray-30);
-
 }
 
 p {
